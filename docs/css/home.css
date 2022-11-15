@@ -753,6 +753,19 @@ main {
     text-align: right;
   }
 
+  .show {
+    background: rgb(249, 249, 249) url("@img/gallery/auto.webp") no-repeat center;
+    width: 100%;
+    max-width: 100%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+  }
+
+  .show__container {
+    width: 100%;
+  }
+
   .show__wrap {
     flex-direction: row;
     justify-content: space-between;
@@ -763,6 +776,7 @@ main {
     align-self: auto;
     width: 325px;
     padding: 40px 0 42px 0;
+    margin-bottom: 0;
   }
 
   .show__text {
@@ -1013,46 +1027,13 @@ main {
   }
 
   .show {
-    background: rgb(249, 249, 249) url("@img/gallery/phone-js.webp") no-repeat center;
-    width: 100%;
-    max-width: 100%;
+    background: rgb(249, 249, 249) url("@img/gallery/auto.webp") no-repeat center;
     min-height: 866px;
-    display: flex;
     flex-direction: column;
     justify-content: center;
-    position: relative;
-  }
-
-  .show::before {
-    content: "";
-    position: absolute;
-    width: 67px;
-    height: 67px;
-    background: rgb(255, 0, 0) url("@img/icon/round.svg") no-repeat 60% center;
-    background-size: 50px 32px;
-    border-radius: 50%;
-    left: 0;
-    right: 0;
-    top: 35px;
-    bottom: 0;
-    margin: auto;
-    z-index: 1;
-    cursor: pointer;
-  }
-
-  .show::after {
-    content: "";
-    position: absolute;
-    width: 1px;
-    height: 100%;
-    background-color: rgb(255, 255, 255);
-    left: 2px;
-    right: 0;
-    margin: 0 auto;
   }
 
   .show__container {
-    width: 100%;
     max-width: 1920px;
   }
 
@@ -1082,6 +1063,7 @@ main {
   .show__link {
     padding: 15px 0;
     width: 200px;
+    transition: all 0.3s ease 0s;
   }
 
   .show__link:hover {
@@ -1090,7 +1072,8 @@ main {
   }
 
   .show__link:active {
-    border: 3px solid #CECECE;
+    transition: none;
+    box-sizing: border-box;
     background-color: rgb(255, 255, 255);
     color: rgb(51, 51, 51);
   }
