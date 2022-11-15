@@ -1,0 +1,130 @@
+.footer {
+    width: 100%;
+    max-width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.footer__wrap {
+    padding: 12px 15px 12px;
+}
+
+.footer__wrap-about-page {
+    padding: 12px 15px 12px;
+}
+
+.footer__nav {
+    display: none;
+}
+
+.footer__text {
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(153, 153, 153, 1);
+    font-family: "Roboto", "Arial", "sans-serif";
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.footer__copy {
+    font-family: "Roboto", "Arial", "sans-serif";
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(153, 153, 153, 1);
+    text-align: right;
+}
+
+.footer__copy-mode {
+    text-align: left;
+}
+
+.item-link--current {
+    color: rgba(136, 136, 136, 1);
+}
+
+@media (min-width: 768px) {
+    .footer__wrap {
+        padding: 12px 30px 12px;
+    }
+
+    .footer__wrap-about-page {
+        padding: 12px 30px 12px;
+    }
+
+    .footer__text {
+        margin-bottom: 16px;
+    }
+
+    .footer__copy-mode {
+        text-align: right;
+    }
+}
+
+@media (min-width: 1365px) {
+    .footer__container {
+        max-width: 1450px;
+        margin: 0 auto;
+    }
+
+    .footer__wrap {
+        padding: 0 43px 12px;
+    }
+
+    .footer__nav {
+        display: block;
+        background-color: rgba(255, 255, 255, 1);
+        border: 1px solid #E2E2E2;
+        border-radius: 5px;
+        width: 99.5%;
+        transform: translate(0%, -35px);
+        // top: -39px;
+    }
+
+    .footer__list {
+        display: flex;
+    }
+
+    .footer__item {
+        flex: 1 1 100%;
+        padding: 14px 0 11px;
+        position: relative;
+        text-align: center;
+    }
+
+    .footer__item-link {
+        padding: 15px 30px;
+        display: inline-block;
+        font-size: 16px;
+        line-height: 19px;
+        color: rgba(51, 51, 51, 1);
+        transition: all 0.3s ease 0s;
+    }
+
+    .footer__item-link:hover {
+        transform: scale(1.07);
+    }
+
+    .footer__text {
+        margin: 0;
+    }
+
+    .footer__copy {
+        position: relative;
+        top: -8px;
+    }
+
+    .footer__item::after {
+        content: "";
+        position: absolute;
+        height: 50px;
+        width: 1px;
+        background-color: rgba(226, 226, 226, 1);
+        right: -2px;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+    }
+
+    .footer__item:last-child::after {
+        display: none;
+    }
+}

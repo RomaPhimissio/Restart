@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!-- ! Изменить все "Start" на нужные данные, после чего удалить эту строку и переименовать текущий файл-->
+@@include('./components/structure/_head.html', {
+'lang':'en',
+'css': './css/contacts.min.css',
+'title': 'Restart',
+'swiper': 'y',
+})
+<!-- todo При указанном значении 'y' или 'yes' у ключа 'swiper' - добавляет стили на страницу -->
+
+<body class="start">
+  <div class="wrapper">
+    @@include('./components/structure/_header.html')
+    <main>
+      <h1 class="visually-hidden">Restart</h1>
+      <div class="inner-main">
+        <div class="inner">
+          <div class="inner-container">
+            <div class="inner-wrap">
+              <section class="contacts">
+                <div class="contacts__container">
+                  <div class="contacts__wrap">
+                    <h2 class="contacts__title">Контактна інформація</h2>
+                    <div class="contacts__main-block">
+                      <div class="contacts__block-info">
+                        <p class="contacts__par">Адреса офісу:</p>
+                        <address class="contacts__add">Івана Підкови, 17г</address>
+                        <address class="contacts__add">Рівне, Рівненська область, 33000</address>
+                        <a class="contacts__link" href="#">адреси сервісно-технічних центрів</a>
+                      </div>
+                      <div class="contacts__block-info">
+                        <p class="contacts__par">0362 46 0443</p>
+                        <p class="contacts__par">0800 21 4343 <span class="contacts__element">(безкоштовно)</span></p>
+                        <p class="contacts__par">+38 067 362 4343 <span class="contacts__vibe">(viber)</span></p>
+                        <p class="contacts__par">067 208 34 70 <br class="contacts__brake"><span
+                            class="contacts__element">(Регіональний менеджер)</span>
+                        </p>
+                      </div>
+                      <div class="contacts__block-info">
+                        <p class="contacts__par">пошта: <a class="contacts__link" href="#">info@restart.ua</a></p>
+                        <p class="contacts__par">facebook: <a class="contacts__link" href="#">restart.ua</a></p>
+                      </div>
+                      <div class="contacts__block-info">
+                        <p class="contacts__par">Розклад роботи офісу:</p>
+                        <p class="contacts__par">Пн-Пт – з 9:00 до 18:00</p>
+                        <p class="contacts__par">Субота – з 9:00 до 14:00</p>
+                        <p class="contacts__par">Неділя – вихідний день</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <div class="map__inner-wrap">
+                <section class="map">
+                  <div class="map__container">
+                    <div class="map__wrap">
+                      <iframe class="map__frame"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.656546684276!2d26.222521613002826!3d50.633496784736515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472f6c9f62e4b3ab%3A0x9fe4536d17411b2a!2z0YPQuy4g0JjQstCw0L3QsCDQn9C-0LTQutC-0LLRiywgMTfQsywg0KDQvtCy0L3Qviwg0KDQvtCy0LXQvdGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCAzMzAyNA!5e0!3m2!1sru!2sua!4v1659259383046!5m2!1sru!2sua"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    @@include('./components/structure/_footer.html')
+  </div>
+  @@include('./components/structure/_scripts.html', {
+  'swiper': 'yes',
+  })
+  <!-- todo При указанном значении 'y' или 'yes' у ключа 'swiper' - добавляет скрипт на страницу -->
+</body>
+
+</html>

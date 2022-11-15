@@ -1,0 +1,518 @@
+.promise__inner-wrap {
+    background-color: rgba(249, 249, 249, 1);
+    padding-bottom: 42px;
+}
+
+.promise {
+    width: 100%;
+    max-width: 100%;
+}
+
+.promise__container {
+    margin: 0 auto;
+    max-width: 1370px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.promise__wrap {
+    padding: 37px 0 41px;
+}
+
+.promise__block-main:first-of-type {
+    .promise__par {
+        margin-bottom: 66px;
+    }
+}
+
+.promise__block-main:last-of-type {
+    padding-top: 50px;
+
+    .promise__block {
+        padding-top: 73px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .promise__item:nth-child(1) {
+        .promise__item-element::after {
+            background: url("@img/icon/promise-icon6.svg") no-repeat center;
+        }
+    }
+
+    .promise__item:nth-child(2) {
+        .promise__item-element::after {
+            background: url("@img/icon/promise-icon7.svg") no-repeat center;
+        }
+    }
+
+    .promise__item:nth-child(3) {
+        .promise__item-element::after {
+            background: url("@img/icon/promise-icon8.svg") no-repeat center;
+        }
+    }
+
+    .promise__item:nth-child(4) {
+        .promise__item-element::after {
+            background: url("@img/icon/promise-icon9.svg") no-repeat center;
+        }
+
+        .promise__item-element {
+            width: 100%;
+        }
+    }
+
+    .promise__item:nth-child(5) {
+        .promise__item-element::after {
+            background: url("@img/icon/promise-icon10.svg") no-repeat center;
+        }
+
+        .promise__item-element {
+            width: 95%;
+        }
+    }
+
+    .promise__item:nth-child(6) {
+        .promise__item-element::after {
+            background: url("@img/icon/promise-icon11.svg") no-repeat center;
+        }
+
+        .promise__item-element {
+            width: 100%;
+        }
+    }
+
+    .promise__item-element {
+        width: 90%;
+    }
+}
+
+.promise__par {
+    padding: 0 10px;
+    font-size: 20px;
+    line-height: 26px;
+    color: rgba(51, 51, 51, 1);
+    text-align: center;
+    width: 80%;
+    margin: 0 auto 11px;
+
+}
+
+.promise__picture {
+    background: url("@img/gallery/prom1.webp") no-repeat center;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 44%;
+}
+
+.promise__picture2 {
+    background: url("@img/gallery/prom2.webp") no-repeat center;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 38%;
+}
+
+.promise__block {
+    padding-top: 57px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.promise__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.promise__item {
+    margin-bottom: 110px;
+}
+
+.promise__item:last-child {
+    margin-bottom: 0;
+}
+
+
+.promise__item:nth-child(2),
+.promise__item:nth-child(4) {
+    margin-bottom: 112px;
+}
+
+.promise__item:nth-child(3) {
+    .promise__item-element {
+        width: 100%;
+    }
+
+    .promise__item-element::after {
+        background: url("@img/icon/promise-icon3.svg") no-repeat center;
+    }
+}
+
+.promise__item:nth-child(2) {
+    .promise__item-element::after {
+        background: url("@img/icon/promise-icon2.svg") no-repeat center;
+    }
+}
+
+.promise__item:nth-child(4) {
+    .promise__item-element::after {
+        background: url("@img/icon/promise-icon4.svg") no-repeat center;
+    }
+}
+
+.promise__item:nth-child(5) {
+    .promise__item-element::after {
+        background: url("@img/icon/promise-icon5.svg") no-repeat center;
+    }
+}
+
+.promise__item-element {
+    text-align: center;
+    position: relative;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.promise__item-element::after {
+    content: "";
+    position: absolute;
+    background: url("@img/icon/promise-icon1.svg") no-repeat center;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -80px;
+}
+
+.promise__brake-tab {
+    display: none;
+}
+
+@media (min-width: 768px) {
+
+    .promise__inner-wrap {
+        padding-bottom: 39px;
+    }
+
+    .promise__wrap {
+        padding: 26px 0 0;
+    }
+
+    .promise__block {
+        padding-top: 119px;
+    }
+
+    .promise__brake {
+        display: none;
+    }
+
+    .promise__list {
+        display: grid;
+        grid-template-columns: 30% 224px 30%;
+        grid-auto-rows: 1fr;
+        grid-auto-flow: row;
+        justify-content: center;
+        gap: 3em;
+        row-gap: 7.25em;
+    }
+
+    .promise__par {
+        text-align: left;
+        padding: 0 30px;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .promise__block-main:first-of-type {
+        .promise__par {
+            margin-bottom: 0;
+        }
+    }
+
+    .promise__item,
+    .promise__item:nth-child(2),
+    .promise__item:nth-child(4) {
+        margin: 0;
+    }
+
+    .promise__item:nth-child(1),
+    .promise__item:nth-child(2),
+    .promise__item:nth-child(3),
+    .promise__item:nth-child(4),
+    .promise__item:nth-child(5) {
+        .promise__item-element {
+            width: 100%;
+        }
+    }
+
+    .promise__item:nth-child(3) {
+        .promise__item-element {
+            width: 80%;
+            padding-left: 14px;
+        }
+    }
+
+    .promise__item:nth-child(1) {
+        .promise__item-element {
+            padding-left: 7px;
+        }
+    }
+
+    .promise__item:nth-child(4) {
+        .promise__item-element {
+            padding-left: 10px;
+        }
+    }
+
+    .promise__item-element {
+        width: 100%;
+    }
+
+    .promise__item:nth-child(1),
+    .promise__item:nth-child(4) {
+        .promise__item-element::after {
+            left: 11px;
+            top: -86px;
+        }
+    }
+
+    .promise__item:nth-child(2),
+    .promise__item:nth-child(5) {
+        .promise__item-element::after {
+            top: -86px;
+        }
+    }
+
+    .promise__item:nth-child(3) {
+        .promise__item-element::after {
+            top: -86px;
+            left: 18px;
+        }
+    }
+
+    .promise__block-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .promise__block-main:last-of-type {
+        padding-top: 0;
+
+        .promise__block {
+            padding-top: 105px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        .promise__list {
+            grid-template-columns: 33% 224px 33%;
+            gap: 1.35em;
+            row-gap: 6.05em;
+        }
+
+        .promise__item:nth-child(1) {
+            .promise__item-element {
+                width: 80%;
+                padding-left: 23px;
+            }
+
+            .promise__item-element::after {
+                left: 24px;
+            }
+        }
+
+        .promise__item:nth-child(2) {
+            .promise__item-element {
+                width: 90%;
+                padding-left: 0;
+            }
+        }
+
+        .promise__item:nth-child(3) {
+            .promise__item-element {
+                width: 100%;
+                padding-left: 0;
+            }
+
+            .promise__item-element::after {
+                left: 1px;
+            }
+        }
+
+        .promise__item:nth-child(4) {
+            .promise__item-element {
+                padding-left: 12px;
+            }
+        }
+
+        .promise__item:nth-child(6) {
+            .promise__item-element {
+                width: 90%;
+            }
+
+            .promise__item-element::after {
+                top: -86px;
+            }
+        }
+    }
+
+    .promise__picture {
+        order: 3;
+    }
+
+    .promise__picture2 {
+        order: 3;
+    }
+
+    .promise__block {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .promise__brake-tab {
+        display: initial;
+    }
+}
+
+@media (min-width: 1365px) {
+
+    .promise__inner-wrap {
+        background-color: rgba(255, 255, 255, 1);
+        padding-bottom: 42px;
+    }
+
+    .promise {
+        background-color: rgba(255, 255, 255, 1);
+    }
+
+    .promise__wrap {
+        padding: 108px 5px 0;
+    }
+
+    .promise__block-main:last-child {
+        padding-top: 0;
+        transform: translate(0%, -40px);
+    }
+
+    .promise__block {
+        padding: 130px 50px 0;
+    }
+
+    .promise__list {
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        gap: 1.35em;
+        row-gap: 6.05em;
+    }
+
+    .promise__par {
+        padding: 0;
+    }
+
+    .promise__item:nth-child(1),
+    .promise__item:nth-child(3) {
+        .promise__item-element {
+            width: 75%;
+            padding: 0;
+        }
+    }
+
+    .promise__item:nth-child(1),
+    .promise__item:nth-child(2),
+    .promise__item:nth-child(5) {
+        .promise__item-element::after {
+            left: 3px;
+        }
+    }
+
+    .promise__item:nth-child(3) {
+        .promise__item-element {
+            padding-right: 3px;
+        }
+
+        .promise__item-element::after {
+            left: -3px;
+        }
+    }
+
+    .promise__item:nth-child(4) {
+        .promise__item-element {
+            padding-left: 2px;
+        }
+
+        .promise__item-element::after {
+            left: 3px;
+        }
+    }
+
+    .promise__block-main:last-of-type {
+        .promise__list {
+            grid-template-columns: 16.6% 16.6% 16.6% 17.5% 16.6% 16.6%;
+            gap: 1em;
+        }
+
+        .promise__block {
+            padding: 135px 20px 0;
+        }
+
+        .promise__item:nth-child(1) {
+            .promise__item-element {
+                padding: 0;
+                padding-left: 8px;
+                width: 90%;
+            }
+
+            .promise__item-element::after {
+                left: 12px;
+            }
+        }
+
+        .promise__item:nth-child(2) {
+            .promise__item-element {
+                padding: 0;
+                padding-right: 9px;
+                width: 92%;
+            }
+
+            .promise__item-element::after {
+                left: -2px;
+            }
+        }
+
+        .promise__item:nth-child(3) {
+            .promise__item-element::after {
+                left: -2px;
+            }
+        }
+
+        .promise__item:nth-child(4) {
+            .promise__item-element {
+                padding: 0;
+                padding-left: 12px;
+                width: 100%;
+            }
+
+            .promise__item-element::after {
+                left: 15px;
+            }
+        }
+
+        .promise__item:nth-child(5) {
+            .promise__item-element {
+                padding-left: 30px;
+            }
+
+            .promise__item-element::after {
+                left: 33px;
+            }
+        }
+
+        .promise__item:nth-child(6) {
+            .promise__item-element {
+                padding-left: 15px;
+            }
+
+            .promise__item-element::after {
+                left: 15px;
+            }
+        }
+    }
+}

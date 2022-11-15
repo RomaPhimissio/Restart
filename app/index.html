@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+@@include('./components/structure/_head.html', {
+'lang':'en',
+'css': './css/home.min.css',
+'title': 'Restart',
+'swiper': '',
+})
+
+<body class="home">
+  <div class="wrapper">
+    @@include('./components/structure/_header.html')
+    <main>
+      <section class="show">
+        <div class="show__container">
+          <div class="show__wrap">
+            <div class="show__card">
+              <p class="show__text">Діагностика та ремонт
+                стартерів, генераторів,
+                кондиціонерів</p>
+              <div class="show__link-wrap">
+                <a class="show__link" href="#">Мережа сервісів</a>
+              </div>
+            </div>
+            <div class="show__card">
+              <p class="show__text">Продаж стартерів,
+                генераторів
+                <br>та компонентів
+              </p>
+              <a class="show__link" href="#">Перейти в магазин</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="offer">
+        <div class="offer__container">
+          <div class="offer__wrap">
+            <div class="offer__picture">
+              <source type="image/webp" srcset="@img/gallery/logo.webp">
+              <img src="@img/gallery/logo.png" alt="brand" loading="lazy">
+            </div>
+            <p class="offer__par">Справжні професіонали<br class="offer__break-one"> на ринку стартерів та генераторів
+            </p>
+            <ul class="offer__list">
+              <li class="offer__item">
+                <div class="offer__img-wrap">
+                  <picture>
+                    <source type="image/webp" srcset="@img/gallery/mech1.webp">
+                    <img src="@img/gallery/mech1.jpg" alt="mechanic" loading="lazy">
+                  </picture>
+                </div>
+                <div class="offer__item-cont">
+                  <h3 class="offer__subtitle">Мережа СТЦ</h3>
+                  <p class="offer__desc">Ремонт стартерів, генераторів, кондиціонерів</p>
+                </div>
+              </li>
+              <li class="offer__item">
+                <div class="offer__img-wrap">
+                  <picture>
+                    <source type="image/webp" srcset="@img/gallery/mech2.webp">
+                    <img src="@img/gallery/mech2.png" alt="mechanic" loading="lazy">
+                  </picture>
+                </div>
+                <div class="offer__item-cont">
+                  <h3 class="offer__subtitle">Інтернет-магазин</h3>
+                  <p class="offer__desc">Понад 15 000 позицій агрегатів та компонентів</p>
+                </div>
+              </li>
+              <li class="offer__item">
+                <div class="offer__img-wrap">
+                  <picture>
+                    <source type="image/webp" srcset="@img/gallery/mech3.webp">
+                    <img src="@img/gallery/mech3.jpg" alt="mechanic" loading="lazy">
+                  </picture>
+                </div>
+                <div class="offer__item-cont">
+                  <h3 class="offer__subtitle">Готові рішення</h3>
+                  <p class="offer__desc">Готові рішення в стар-ген сегменті для СТО</p>
+                </div>
+              </li>
+            </ul>
+            <p class="offer__text">У нас представлений широкий асортимент запчастин<br class="offer__text-break">
+              та комплектуючих для вантажних<br class="offer__text-break">
+              та легкових авто, сільськогосподарських машин, водомоторної техніки, а також
+              мотоциклів та промислового<br class="offer__text-break">
+              сектору ринку.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    @@include('./components/structure/_footer.html')
+  </div>
+  @@include('./components/structure/_scripts.html', {
+  'swiper': '',
+  })
+</body>
+
+</html>

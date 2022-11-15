@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!-- ! Изменить все "Start" на нужные данные, после чего удалить эту строку и переименовать текущий файл-->
+@@include('./components/structure/_head.html', {
+'lang':'en',
+'css': './css/about.min.css',
+'title': 'about',
+'swiper': 'y',
+})
+<!-- todo При указанном значении 'y' или 'yes' у ключа 'swiper' - добавляет стили на страницу -->
+
+<body class="start">
+  <div class="wrapper">
+    @@include('./components/structure/_header.html')
+    <main>
+      <section class="mission">
+        <div class="mission__container">
+          <div class="mission__wrap">
+            <div class="mission__wrap-inner">
+              <div class="mission__par-wrap">
+                <p class="mission__par">Наша місія — надавати професійні рішення для звичного ритму життя людей, які
+                  цінують
+                  автокомфорт та
+                  прагнуть жити на повну.</p>
+              </div>
+              <p class="mission__text">Компанія Restart працює на ринку стартерів та генераторів понад 20 років.<br
+                  class="mission__brake-text">
+                Паралельно з гуртовими продажами агрегатів та компонентів на всій території України, компанія розвиває
+                мережу сервісно-технічних
+                центрів у Рівному та Луцьку.</p>
+              <div class="mission__picture">
+                <picture>
+                  <source type="image/webp" srcset="@img/gallery/cars.webp">
+                  <img src="@img/gallery/cars.jpg" alt="cars" loading="lazy">
+                </picture>
+              </div>
+              <p class="mission__desc">Сьогодні в Компанії є 7 діючих сервісно-технічних центрів,<br
+                  class="mission__brake"> що надають такі
+                послуги:
+              </p>
+              <ul class="mission__list">
+                <li class="mission__item">діагностика, профілактика та ремонт стартерів та генераторів;</li>
+                <li class="mission__item">заміна компонентів агрегатів;</li>
+                <li class="mission__item">діагностика системи кондиціонування азотом;</li>
+                <li class="mission__item">заправка та дозаправка кондиціонера фреоном;</li>
+                <li class="mission__item">ремонт системи кондиціонування;</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="desc">
+        <div class="desc__video">
+          <div class="desc__video-wrap">
+            <div class="desc__video-img">
+              <picture>
+                <source type="image/webp" srcset="@img/gallery/auto.webp">
+                <img src="@img/gallery/auto.jpg" alt="auto" loading="lazy">
+              </picture>
+            </div>
+            <div class="desc__link-wrap">
+              <a href="#" class="desc__link" onclick="return false">
+                <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="50" cy="50" r="49" stroke="white" stroke-width="2" />
+                  <path d="M38.7722 29.2278L70.1776 50.1776L38.7722 71.1276L38.7722 50.1777L38.7722 29.2278Z"
+                    fill="white" />
+                </svg>
+              </a>
+            </div>
+            <iframe class="desc__frame" src="https://www.youtube.com/embed/YSnspZ0GGU0" title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="desc__container">
+          <div class="desc__wrap">
+            <div class="desc__inner-wrap">
+              <p class="desc__subtitle">Компанія Restart (Рестарт) — це справжні професіонали на ринку стартерів та
+                генераторів.</p>
+              <p class="desc__text">У нас представлений широкий асортимент запчастин та комплектуючих для вантажних та
+                легкових авто,<br class="desc__brake">
+                сільськогосподарських машин, водно-моторної техніки, а також мотоциклів та промислового сектору ринку.
+              </p>
+              <div class="desc__block-content">
+                <div class="desc__content">
+                  <p class="desc__desc">Наш асортимент запчастин налічує:</p>
+                  <ul class="desc__list">
+                    <li class="desc__item">стартери та генератори</li>
+                    <li class="desc__item">комплектуючі</li>
+                    <li class="desc__item">обладнання для діагностики та ремонту генераторів та стартерів в асортименті
+                    </li>
+                    <li class="desc__item">деталі для системи кондиціонування</li>
+                  </ul>
+                </div>
+                <div class="desc__content">
+                  <p class="desc__desc">Наші переваги:</p>
+                  <ul class="desc__list">
+                    <li class="desc__item">формування запасів популярних запчастин та їх наявність на наших складах</li>
+                    <li class="desc__item">кваліфіковане та швидке обслуговування</li>
+                    <li class="desc__item">допомога при виборі запчастин</li>
+                    <li class="desc__item">досвідчені майстри сервісу</li>
+                    <li class="desc__item">сучасне обладнання та новітні інструменти</li>
+                    <li class="desc__item">гарантія якості</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="benefits">
+        <div class="benefits__container">
+          <div class="benefits__wrap">
+            <ul class="benefits__list">
+              <li class="benefits__item">Ми постійно слідкуємо за тенденціями та розвитком ринку стартерів
+                та генераторів в Україні, тому прагнемо завжди тримати в наявності
+                на складі компанії найпоширеніші позиції.</li>
+              <li class="benefits__item">Спеціалісти компанії завжди нададуть Вам кваліфіковане та швидке
+                обслуговування,
+                допоможуть у підборі агрегатів та компонентів<br class="benefits__brake-desk"> за допомогою сучасних
+                інструментів пошуку.</li>
+              <li class="benefits__item">Наші знання підкріплені щоденним доступом до технічної бази знань нашої мережі
+                сервісів, яка вже понад 20 років спеціалізується<br class="benefits__break">
+                на обслугованні та ремонтах стартерів та генераторів.</li>
+              <li class="benefits__item">Продукція компанії Restart (Рестарт) представлена брендами AS, Cargo, Koyo, ZM,
+                ZEN, IKA, Mobiletron. Товарна пропозиція компанії включає понад 15 000 позицій, що гарантує клієнтам
+                широкий вибір товарів, починаючи від оригінальних запчастин<br class="benefits__break">
+                і закінчуючи замінниками за конкурентними цінами.
+              </li>
+            </ul>
+            <div class="benefits__block-text">
+              <div class="benefits__picture">
+                <picture>
+                  <source type="image/webp" srcset="@img/gallery/handshake.webp">
+                  <img src="@img/gallery/handshake.png" alt="picture" loading="lazy">
+                </picture>
+              </div>
+
+              <p class="benefits__text">Ми хочемо розвивати ринок якісних агрегатів, компонентів та послуг з ремонту
+                стартерів, генераторів, тому готові ділитися з партнерами нашими знаннями. Детальнішу інформацію можна
+                знайти у розділі</p>
+              <div class="benefits__wrap-link">
+                <a href="#" class="benefits__link">Готові рішення для СТО</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    @@include('./components/structure/_footer.html')
+  </div>
+  @@include('./components/structure/_scripts.html', {
+  'swiper': 'yes',
+  })
+  <!-- todo При указанном значении 'y' или 'yes' у ключа 'swiper' - добавляет скрипт на страницу -->
+</body>
+
+</html>
