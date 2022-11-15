@@ -15,19 +15,6 @@ if (burgerMenu) {
    })
 };
 
-// const popupBurgerclose = document.querySelector('.pop-up__burger-close');
-// const formButton = document.querySelector('.form__btn');
-// const popUp = document.querySelector('.pop-up');
-// if (formButton) {
-//    formButton.addEventListener("click", function (e) {
-//       event.preventDefault();
-//       popUp.classList.add('.open');
-//    })
-//    popupBurgerclose.addEventListener("click", function (e) {
-//       popUp.classList.remove('.open');
-//    })
-// };
-
 // ! globalVideo
 let srcGlobalVideo = "https://www.youtube.com/embed/YSnspZ0GGU0";
 
